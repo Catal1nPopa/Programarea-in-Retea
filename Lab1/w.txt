@@ -1,5 +1,4 @@
-la client randul 14,15 de mutat sus sa fei daor un soket reutilizat
-server pe acelasi port , client diferiti
+
 
 https://www.youtube.com/watch?v=ve2LX1tOwIM&ab_channel=FoxLearn
 
