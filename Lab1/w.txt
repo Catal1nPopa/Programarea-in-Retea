@@ -1,0 +1,85 @@
+la client randul 14,15 de mutat sus sa fei daor un soket reutilizat
+server pe acelasi port , client diferiti
+
+https://www.youtube.com/watch?v=ve2LX1tOwIM&ab_channel=FoxLearn
+
+https://www.youtube.com/watch?v=Vy2PPND3JCI&ab_channel=ExceptionHack
+
+server
+
+using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+
+Socket serverSoket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+IPAddress iPAddress = IPAddress.Parse("127.0.0.1");
+serverSoket.Bind(new IPEndPoint(iPAddress, 9000));
+serverSoket.Listen(5);
+
+while (true)
+{
+    Console.WriteLine("Waiting for connection");
+    Socket connection = serverSoket.Accept();
+
+    Console.WriteLine("Connection accpeted");
+    Console.WriteLine(connection.RemoteEndPoint);
+    Console.WriteLine();
+
+    string text = "";
+
+    do
+    {
+        byte[] buffer = new byte[1024];
+        int byteReceived = connection.Receive(buffer);
+
+        text += Encoding.UTF8.GetString(buffer, 0, byteReceived);
+    } while (connection.Available > 0);
+
+    Console.WriteLine($"Received {text}");
+    byte[] byteData = Encoding.UTF8.GetBytes("Server received your message");
+
+    connection.Send(byteData);
+}
+
+
+
+client
+
+using System;
+using System.Net;
+using System.Net.Sockets;
+using System.Text;
+
+IPAddress serverIp = IPAddress.Parse("127.0.0.1");
+int serverPort = 9000;
+
+Thread.Sleep(2000);
+
+while (true)
+{
+    Socket client = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+    client.Connect(new IPEndPoint(serverIp, serverPort));
+    Console.WriteLine("A fost conectat la server");
+
+    Console.WriteLine("Introdu textul");
+    string text = Console.ReadLine() ?? "";
+
+    byte[] bytedata = Encoding.UTF8.GetBytes(text);
+
+    client.Send(bytedata);
+    string receivedText = "";
+    do
+    {
+        byte[] receivedBuffer = new byte[1024];
+        int byteReceived = client.Receive(receivedBuffer);
+
+        receivedText += Encoding.UTF8.GetString(receivedBuffer, 0, byteReceived);
+    } while (client.Available > 0);
+
+    Console.WriteLine($"Server: {receivedText}\n");
+
+    client.Shutdown(SocketShutdown.Both);
+    client.Close();
+}
