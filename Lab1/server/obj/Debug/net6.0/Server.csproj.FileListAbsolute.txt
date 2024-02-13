@@ -12,3 +12,17 @@ D:\UTM\ANUL 3\SEM 2\PR\Lab1\Server\obj\Debug\net6.0\refint\Server.dll
 D:\UTM\ANUL 3\SEM 2\PR\Lab1\Server\obj\Debug\net6.0\Server.pdb
 D:\UTM\ANUL 3\SEM 2\PR\Lab1\Server\obj\Debug\net6.0\Server.genruntimeconfig.cache
 D:\UTM\ANUL 3\SEM 2\PR\Lab1\Server\obj\Debug\net6.0\ref\Server.dll
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\bin\Debug\net6.0\Server.exe
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\bin\Debug\net6.0\Server.deps.json
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\bin\Debug\net6.0\Server.runtimeconfig.json
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\bin\Debug\net6.0\Server.dll
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\bin\Debug\net6.0\Server.pdb
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.AssemblyInfoInputs.cache
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.AssemblyInfo.cs
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.csproj.CoreCompileInputs.cache
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.dll
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\refint\Server.dll
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.pdb
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\Server.genruntimeconfig.cache
+D:\UTM\ANUL 3\SEM 2\PR\Programarea-in-Retea\Lab1\server\obj\Debug\net6.0\ref\Server.dll
