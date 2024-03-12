@@ -1,11 +1,7 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading;
-using static System.Net.Mime.MediaTypeNames;
-using System.Collections.Generic;
 
 namespace Client
 {
@@ -15,9 +11,9 @@ namespace Client
         public int _port;
         public IPAddress _addressBroadcast;
 
-        private List<string> connectedIPs;
+        public List<string> connectedIPs;
 
-        private bool shouldStop = false;
+        public bool shouldStop = false;
         public UdpChat(int port)
         {
             _port = port;
@@ -72,9 +68,9 @@ namespace Client
                     {
                         string clientIP = ipEndPoint.Address.ToString();
                         RemoveConnectedIP(clientIP);
-                        StopReceiveLoop(); //opreste thread-ul
+                        //StopReceiveLoop(); 
                     }
-                    continue; // Continuăm să ascultăm după alte mesaje
+                    continue; 
                 }
                 else if (remoteClient is IPEndPoint ipEndPoint)
                 {
@@ -129,9 +125,9 @@ namespace Client
                 {
                     Console.WriteLine(ni.Name);
 
-                    foreach (UnicastIPAddressInformation ip in ni.GetIPProperties().UnicastAddresses)
+                    foreach (UnicastIPAddressInformation ip in ni.GetIPProperties().UnicastAddresses) //se obtine i lista de informatii deswpre adresa ip unicast
                     {
-                        if (ip.Address.AddressFamily == AddressFamily.InterNetwork)
+                        if (ip.Address.AddressFamily == AddressFamily.InterNetwork) //verificare daca este ipv4
                         {
                             Console.WriteLine("IP Address: " + ip.Address.ToString());
 
