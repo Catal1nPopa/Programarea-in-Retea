@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hu1iHQMyDDkPSsxO0GQRwUCRYxQ52PzLINzpZ4Hf0QHGh66a0/2+tscI8UGtNEBa0KeVtFLVgie21YUe/Mnb6Q==",
+  "success": true,
+  "projectFilePath": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\DNS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\miste\\.nuget\\packages\\dnsclient\\1.7.0\\dnsclient.1.7.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\system.codedom\\8.0.0\\system.codedom.8.0.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\system.management\\8.0.0\\system.management.8.0.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\miste\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
