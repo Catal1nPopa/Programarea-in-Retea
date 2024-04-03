@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\putmethods\\changetittle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\putmethods\\changetittle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\postmethods\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\postmethods\\addproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\postmethods\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\postmethods\\addcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\getmethods\\getproductsfromcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\getmethods\\getproductsfromcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\getmethods\\getinfocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\getmethods\\getinfocategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\getmethods\\getcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\getmethods\\getcategories.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\methods\\deletemethods\\deletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:methods\\deletemethods\\deletecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab4\\laborator4utmshop\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62806B56-8108-4AD4-A361-A48241A1FFE5}|Laborator4UtmShop.csproj|solutionrelative:entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChangeTittle.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PutMethods\\ChangeTittle.cs",
+              "RelativeDocumentMoniker": "Methods\\PutMethods\\ChangeTittle.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PutMethods\\ChangeTittle.cs",
+              "RelativeToolTip": "Methods\\PutMethods\\ChangeTittle.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwCsAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:02:21.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetCategories.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetCategories.cs",
+              "RelativeDocumentMoniker": "Methods\\GetMethods\\GetCategories.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetCategories.cs",
+              "RelativeToolTip": "Methods\\GetMethods\\GetCategories.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T21:00:21.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DeleteCategory.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\DeleteMethods\\DeleteCategory.cs",
+              "RelativeDocumentMoniker": "Methods\\DeleteMethods\\DeleteCategory.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\DeleteMethods\\DeleteCategory.cs",
+              "RelativeToolTip": "Methods\\DeleteMethods\\DeleteCategory.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAzwB4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:58:34.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddProducts.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PostMethods\\AddProducts.cs",
+              "RelativeDocumentMoniker": "Methods\\PostMethods\\AddProducts.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PostMethods\\AddProducts.cs",
+              "RelativeToolTip": "Methods\\PostMethods\\AddProducts.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwDIAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:35:14.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetInfoCategory.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetInfoCategory.cs",
+              "RelativeDocumentMoniker": "Methods\\GetMethods\\GetInfoCategory.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetInfoCategory.cs",
+              "RelativeToolTip": "Methods\\GetMethods\\GetInfoCategory.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwEkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:30:40.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Entities\\Product.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Entities\\Product.cs",
+              "RelativeToolTip": "Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:32:44.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Entities\\Category.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Entities\\Category.cs",
+              "RelativeToolTip": "Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T17:32:27.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddCategory.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PostMethods\\AddCategory.cs",
+              "RelativeDocumentMoniker": "Methods\\PostMethods\\AddCategory.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\PostMethods\\AddCategory.cs",
+              "RelativeToolTip": "Methods\\PostMethods\\AddCategory.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T18:33:14.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetProductsFromCategory.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetProductsFromCategory.cs",
+              "RelativeDocumentMoniker": "Methods\\GetMethods\\GetProductsFromCategory.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Methods\\GetMethods\\GetProductsFromCategory.cs",
+              "RelativeToolTip": "Methods\\GetMethods\\GetProductsFromCategory.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACUAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:30:24.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab4\\Laborator4UtmShop\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T10:11:25.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
