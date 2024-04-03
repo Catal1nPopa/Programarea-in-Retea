@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab3\\dns\\dnschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|solutionrelative:dnschange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab3\\dns\\resolvedomaintoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|solutionrelative:resolvedomaintoip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab3\\dns\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|solutionrelative:start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|d:\\utm\\anul 3\\sem 2\\pr\\programarea-in-retea\\lab3\\dns\\resolveiptodomains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03923AE2-E5FC-4238-A03F-E4154EDD04AA}|DNS.csproj|solutionrelative:resolveiptodomains.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResolveIpToDomains.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\ResolveIpToDomains.cs",
+              "RelativeDocumentMoniker": "ResolveIpToDomains.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\ResolveIpToDomains.cs",
+              "RelativeToolTip": "ResolveIpToDomains.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:14:09.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DNSChange.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\DNSChange.cs",
+              "RelativeDocumentMoniker": "DNSChange.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\DNSChange.cs",
+              "RelativeToolTip": "DNSChange.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwBgAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T17:37:43.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResolveDomainToIp.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\ResolveDomainToIp.cs",
+              "RelativeDocumentMoniker": "ResolveDomainToIp.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\ResolveDomainToIp.cs",
+              "RelativeToolTip": "ResolveDomainToIp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:12:48.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Start.cs",
+              "DocumentMoniker": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\Start.cs",
+              "RelativeDocumentMoniker": "Start.cs",
+              "ToolTip": "D:\\UTM\\ANUL 3\\SEM 2\\PR\\Programarea-in-Retea\\Lab3\\DNS\\Start.cs",
+              "RelativeToolTip": "Start.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T17:36:53.472Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
