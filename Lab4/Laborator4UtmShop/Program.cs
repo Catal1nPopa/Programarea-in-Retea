@@ -35,35 +35,35 @@ class Program
         switch (Console.ReadLine())
         {
             case "1":
-                await GetCategories.getCategory();
-                WaitForKey();
+                GetCategories.getCategory();
+                //WaitForKey();
                 return true;
             case "2":
-                await AddCategory.addCategory();
+                AddCategory.addCategory();
                 WaitForKey();
                 return true;
             case "3":
-                await DeleteCategory.DeleteCategoryWithId();
+                 DeleteCategory.DeleteCategoryWithId();
                 WaitForKey();
                 return true;
             case "4":
-                await ChangeTittle.ChangeTitleCategoryWithId();
+                 ChangeTittle.ChangeTitleCategoryWithId();
                 WaitForKey();
                 return true;
             case "5":
-                await GetInfoCategory.GetInfoCategoryById();
+                 GetInfoCategory.GetInfoCategoryById();
                 WaitForKey();
                 return true;
             case "6":
-                await GetInfoCategory.GetInfoCategoryApiByTitle();
+                 GetInfoCategory.GetInfoCategoryApiByTitle();
                 WaitForKey();
                 return true;
             case "7":
-                await GetProductsFromCategory.GetProductsByIdCategory();
+                 GetProductsFromCategory.GetProductsByIdCategory();
                 WaitForKey();
                 return true;
             case "8":
-                await AddProducts.AddProduct();
+                 AddProducts.AddProduct();
                 WaitForKey();
                 return true;
             case "9":

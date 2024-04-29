@@ -36,21 +36,28 @@ namespace Laborator4UtmShop.Methods.PutMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task ChangeTitleCategoryWithId()
+        public static async void ChangeTitleCategoryWithId()
         {
-            Console.WriteLine("Give category ID:\n");
-            int categoryId = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("Introduce ID-ul categoriei:\n");
+                int categoryId = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Give new title:\n");
-            string newTitle = Console.ReadLine();
+                Console.WriteLine("Introduce titlu nou:\n");
+                string newTitle = Console.ReadLine();
 
-            string response = await ChangeTitleApi(categoryId, newTitle);
-            Console.WriteLine(response);
+                string response = await ChangeTitleApi(categoryId, newTitle);
+                Console.WriteLine(response);
+            }
+            catch
+            {
+                Console.WriteLine("Eroare la introducerea id-ului sau titlului");
+            }
         }
     }
 }

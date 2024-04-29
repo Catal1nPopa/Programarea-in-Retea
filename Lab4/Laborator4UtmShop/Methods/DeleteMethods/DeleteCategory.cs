@@ -14,24 +14,30 @@
 
                     if (response.IsSuccessStatusCode)
                     {
-                        return "Category deleted successfully.";
+                        return "Categoria a fost stearsa cu succes.";
                     }
                     return $"Error: {response.StatusCode}";
                 }
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error in the request: {ex.Message}");
+                Console.WriteLine($"Eroare la crearea cererii Http: {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task DeleteCategoryWithId()
+        public static async void DeleteCategoryWithId()
         {
-            Console.WriteLine("Give category ID:\n");
-            int categoryId = int.Parse(Console.ReadLine());
-            string response = await DeleteCategoryApi(categoryId);
-            Console.WriteLine(response);
+            try
+            {
+                Console.WriteLine("Introduce ID-ul categoriei:\n");
+                int categoryId = int.Parse(Console.ReadLine());
+                string response = await DeleteCategoryApi(categoryId);
+                Console.WriteLine(response);
+            }
+            catch {
+                Console.WriteLine("Eroare la introducerea ID-ului");
+            }
         }
     }
 }

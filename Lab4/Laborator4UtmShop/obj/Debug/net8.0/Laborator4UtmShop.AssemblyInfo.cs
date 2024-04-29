@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Laborator4UtmShop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d0addd9505a78e30dbec7dc7e98efe7bda00c0a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+406bf1487f3c9e712dc2b3ad0b67daa64ab9863d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Laborator4UtmShop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Laborator4UtmShop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

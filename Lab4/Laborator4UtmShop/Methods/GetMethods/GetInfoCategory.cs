@@ -30,17 +30,24 @@ namespace Laborator4UtmShop.Methods.GetMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error  {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task GetInfoCategoryById()
+        public static async void GetInfoCategoryById()
         {
-            Console.WriteLine("Give category ID:\n");
-            int categoryId = int.Parse(Console.ReadLine());
-            string response = await GetInfoCategoryApiID(categoryId);
-            Console.WriteLine(response);
+            try
+            {
+                Console.WriteLine("Introduce ID-ul categoriei:\n");
+                int categoryId = int.Parse(Console.ReadLine());
+                string response = await GetInfoCategoryApiID(categoryId);
+                Console.WriteLine(response);
+            }
+            catch (FormatException)
+            {
+                Console.WriteLine("\nEroare la indtorducerea ID-ului\n");
+            }
         }
 
         //////////////By Name
@@ -64,17 +71,24 @@ namespace Laborator4UtmShop.Methods.GetMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task GetInfoCategoryApiByTitle()
+        public static async void GetInfoCategoryApiByTitle()
         {
-            Console.WriteLine("Give category title:\n");
-            string categoryTitle = Console.ReadLine();
-            string response = await GetInfoCategoryApiTitle(categoryTitle);
-            Console.WriteLine(response);
+            try
+            {
+                Console.WriteLine("Introduce titlul categoriei:\n");
+                string categoryTitle = Console.ReadLine();
+                string response = await GetInfoCategoryApiTitle(categoryTitle);
+                Console.WriteLine(response);
+            }
+            catch
+            {
+                Console.WriteLine("Eroare la introducerea titlului\n");
+            }
         }
     }
 }
