@@ -36,17 +36,24 @@ namespace Laborator4UtmShop.Methods.PostMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task addCategory()
+        public static async void addCategory()
         {
-            Console.WriteLine("\nGive category name:\n");
-            string title = Console.ReadLine();
-            string response = await AddCategoryApi(title);
-            Console.WriteLine(response);
+            try
+            {
+                Console.WriteLine("\nIntroduce titlu categoriei:\n");
+                string title = Console.ReadLine();
+                string response = await AddCategoryApi(title);
+                Console.WriteLine(response);
+            }
+            catch
+            {
+                Console.WriteLine("Eroare la introducerea titlului");
+            }
         }
     }
 }

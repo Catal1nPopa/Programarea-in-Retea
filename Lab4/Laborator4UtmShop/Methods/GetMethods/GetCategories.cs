@@ -38,24 +38,24 @@ namespace Laborator4UtmShop.Methods.GetMethods
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred: {ex.Message}");
+                Console.WriteLine($"Error : {ex.Message}");
                 return new List<Category>();
             }
         }
 
-        public static async Task getCategory()
+        public static async void getCategory()
         {
             try
             {
                 List<Category> categories = await GetCategoriesFromApi();
                 foreach (var category in categories)
                 {
-                    Console.WriteLine($"Category ID: {category.Id}, Name: {category.Title}, Products Count: {category.Products}");
+                    Console.WriteLine($"Category ID: {category.Id}, Nume: {category.Title}, Produse: {category.Products}");
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"An error occurred while getting categories: {ex.Message}");
+                Console.WriteLine($"Eroare la obtinerea categoriilor: {ex.Message}");
             }
         }
     }

@@ -28,17 +28,24 @@ namespace Laborator4UtmShop.Methods.GetMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error  {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task GetProductsByIdCategory()
+        public static async void GetProductsByIdCategory()
         {
-            Console.WriteLine("Give category ID:\n");
-            int categoryId = int.Parse(Console.ReadLine());
-            string response = await GetProductsByIdCategoryApi(categoryId);
-            Console.WriteLine(response);
+            try
+            {
+                Console.WriteLine("Introduce ID-ul categoriei:\n");
+                int categoryId = int.Parse(Console.ReadLine());
+                string response = await GetProductsByIdCategoryApi(categoryId);
+                Console.WriteLine(response);
+            }
+            catch
+            {
+                Console.WriteLine("\nEroare la introducerea ID-ului\n");
+            }
         }
     }
 }

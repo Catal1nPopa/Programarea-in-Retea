@@ -37,24 +37,31 @@ namespace Laborator4UtmShop.Methods.PostMethods
             }
             catch (HttpRequestException ex)
             {
-                Console.WriteLine($"Error request {ex.Message}");
+                Console.WriteLine($"Error {ex.Message}");
                 throw;
             }
         }
 
-        public static async Task AddProduct()
+        public static async void AddProduct()
         {
-            Console.WriteLine("\nGive category id:\n");
-            int idCategory = int.Parse(Console.ReadLine());
+            try
+            {
+                Console.WriteLine("\nIntroduce ID-ul categoriei:\n");
+                int idCategory = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\nGive product name:\n");
-            string title = Console.ReadLine();
+                Console.WriteLine("\nIntroduce numele produsului:\n");
+                string title = Console.ReadLine();
 
-            Console.WriteLine("\nGive product price:\n");
-            Decimal price = decimal.Parse(Console.ReadLine());
+                Console.WriteLine("\nIntroduce pretul produsului:\n");
+                Decimal price = decimal.Parse(Console.ReadLine());
 
-            string response = await AddProductApi(idCategory,title,price);
-            Console.WriteLine(response);
+                string response = await AddProductApi(idCategory, title, price);
+                Console.WriteLine(response);
+            }
+            catch
+            {
+                Console.WriteLine("Eroare la introducerea datelor\n");
+            }
         }
     }
 }
