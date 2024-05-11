@@ -1,0 +1,30 @@
+<img src="../assets/background.jpg" class="background_home">
+
+<div style="display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; ;">
+    <app-login *ngIf="!loginSuccessful" (loginSuccess)="onLoginSuccess($event)"></app-login>
+</div>
+
+<div *ngIf="loginSuccessful">
+    <div class="container">
+        <button (click)="onClick()" type="button" class="btn btn-danger" style="position:static;margin-top: 10px;"> Send
+        </button>
+        <br/>
+        <div *ngIf="visible">
+            <app-send-email></app-send-email>
+        </div>
+<br/>
+        <button (click)="onClickIMAP()" type="button" class="btn btn-info" style="position: static;">Show IMAP</button>
+        <div *ngIf="visibleIMAP">
+            <app-get-imap></app-get-imap>
+        </div>
+
+        <br/>
+        <button (click)="onClickPOP3()" type="button" class="btn btn-warning" style="position: static   ;margin-top: 18px;">Show POP3</button>
+        <div *ngIf="visiblePOP3">
+            <app-get-pop3></app-get-pop3>
+        </div>
+    </div>
+</div>

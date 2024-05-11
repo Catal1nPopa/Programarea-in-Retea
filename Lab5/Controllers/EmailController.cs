@@ -1,13 +1,7 @@
 ﻿using EmailApp.Entities;
-using EmailApp.Methods;
-using MailKit;
-using MailKit.Net.Imap;
-using MailKit.Search;
-using Microsoft.AspNetCore.Mvc;
-using MimeKit;
-using System;
-using System.Net;
 using EmailApp.Login;
+using EmailApp.Methods;
+using Microsoft.AspNetCore.Mvc;
 
 namespace EmailApp.Controllers
 {
@@ -28,9 +22,9 @@ namespace EmailApp.Controllers
             {
                 await SendEmail2.SendEmail(credentials, emailParameters);
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
-                return;
+                throw new Exception(ex.Message);
             }
         }
 

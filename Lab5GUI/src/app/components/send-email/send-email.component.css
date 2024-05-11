@@ -1,0 +1,16 @@
+form{
+    width: 350px;
+}
+
+.container-size{
+    width: 350px;
+}
+
+label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+input[type=file]{
+    color: red;
+}

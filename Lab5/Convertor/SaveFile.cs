@@ -7,11 +7,11 @@ namespace EmailApp.Convertor
     {
         public static void Save(string directoryPath, string Name,byte[] bytes)
         {
-            if (File.Exists(Path.Combine(directoryPath, Name)))
-            {
-                DeleteTempFile.Delete(Path.Combine(directoryPath, Name));
-                return;
-            }
+            //if (File.Exists(Path.Combine(directoryPath, Name)))
+            //{
+            //    DeleteTempFile.Delete(Path.Combine(directoryPath, Name));
+            //    return;
+            //}
             string filePath = Path.Combine(directoryPath, Name);
            
             using (FileStream fs = new FileStream(filePath, FileMode.Create))
