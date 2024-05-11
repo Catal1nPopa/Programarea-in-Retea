@@ -1,0 +1,17 @@
+img{
+    width: 100px;
+}
+
+.table-border{
+    border-radius: 10px;
+    border: solid 1px;
+}
+
+h4{
+    color: red;
+    text-align: center;
+}
+
+h3{
+    font-size: 13px;
+}

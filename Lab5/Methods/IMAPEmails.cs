@@ -1,5 +1,4 @@
-﻿using EmailApp.Attachment;
-using EmailApp.Entities;
+﻿using EmailApp.Entities;
 using EmailApp.Services;
 using MailKit;
 using MailKit.Net.Imap;

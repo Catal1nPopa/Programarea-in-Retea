@@ -1,0 +1,21 @@
+.background_home{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
+.container-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

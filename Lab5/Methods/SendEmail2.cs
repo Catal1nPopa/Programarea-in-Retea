@@ -20,12 +20,13 @@ namespace EmailApp.Methods
 
             if (!emailParameters.Attachment.IsEmpty())
             {
-
-                ConvertFromBase64.ConvertString(emailParameters.Attachment, emailParameters.AttachmentName);
+                //ConvertFromBase64.ConvertString(emailParameters.Attachment, emailParameters.AttachmentName);
 
                 string filePath = $"D:\\UTM\\ANUL 3\\SEM 2\\PR\\TempEmail\\{emailParameters.AttachmentName}";
 
-                System.Net.Mail.Attachment attachment = new System.Net.Mail.Attachment(filePath);
+                byte[] bytes = Convert.FromBase64String(emailParameters.Attachment);
+
+                System.Net.Mail.Attachment attachment = new System.Net.Mail.Attachment(new MemoryStream(bytes), emailParameters.AttachmentName);
                 message.Attachments.Add(attachment);
             }
 

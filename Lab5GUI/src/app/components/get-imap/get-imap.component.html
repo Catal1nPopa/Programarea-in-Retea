@@ -1,0 +1,32 @@
+<div class="container">
+  <h4 *ngIf="loading">Loading IMAP...</h4>
+  <br/>
+  <div>
+  <table class="table table-bordered table-border" *ngIf="!loading">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">From Email:</th>
+        <th scope="col">Subiect:</th>
+      </tr>
+    </thead>
+    <tbody *ngFor="let email of apiData">
+      <tr (click)="toggleEmailDetails(email)">
+          <td>{{ email.fromEmail }}</td>
+          <td>{{ email.subject }}</td>
+      </tr>
+      <tr *ngIf="email.showDetails">
+          <td colspan="2">
+              <p><strong>To Email:</strong> {{ email.toEmail }}</p>
+              <p><strong>ReplyTo:</strong> {{ email.replyTo }}</p>
+              <p [innerHTML]="email.safeBody"></p>
+              <div *ngIf="email.attachment">
+                  <img *ngIf="email.isImage" [src]="getImage(email.attachment)" alt="Attachment"> <br /> <br/>
+                  <h3>Este un fisier: {{ email.attachmentName }} </h3>
+                  <button (click)="downloadAttachment(email.attachment, email.attachmentName)">Descarcă atașamentul</button>
+              </div>
+          </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
